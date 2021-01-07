@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+  <title>P@ssw0rd</title>
+</head>
+<body>
+  
+<header>
+  <div class="site-header">
+    <a class="logo" href=".">P@SSW0RD</a>
+    <nav>
+      <ul>
+        <li><a href="#kata-sandi">Kata Sandi</a></li>
+        <li><a href="#generator">Password Generator</a></li>
+        <li><a href="#comment">Komentar</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="content">
+  <main>
+
+    <article class="blog-post">
+
+      <header class="post-header">
+
+        <img src="assets/images/post-image.jpg" alt="Ilustrasi Password">
+        
+        <section>
+          <h1 id="kata-sandi">Kata Sandi</h1>
+
+          <p>Kata sandi (Inggris: <i>password</i> atau <i>passphrase</i>) adalah kumpulan karakter atau string yang digunakan oleh pengguna jaringan atau sebuah sistem operasi yang mendukung banyak pengguna (multiuser) untuk memverifikasi identitas dirinya kepada sistem keamanan yang dimiliki oleh jaringan atau sistem tersebut. Kata sandi juga dapat diartikan sebagai kata rahasia yang digunakan sebagai pengenal.<sup id="footer1"><a href="#footer1-ref">1</a></sup></p>
+        </section>
+
+      </header>
+
+      <h2 id="cara-kerja">Cara Kerja</h2>
+
+      <p>Sistem keamanan akan membandingkan kode-kode yang dimasukkan oleh pengguna (yang terdiri atas nama pengguna/user name dan password) dengan daftar atau basis data yang disimpan oleh sistem keamanan sistem atau jaringan tersebut (dengan menggunakan metode autentikasi tertentu, seperti halnya kriptografi, hash atau lainnya). Jika kode yang dibandingkan cocok, maka sistem keamanan akan mengizinkan akses kepada pengguna tersebut terhadap layanan dan sumber daya yang terdapat di dalam jaringan atau sistem tersebut, sesuai dengan level keamanan yang dimiliki oleh pengguna tersebut. Idealnya, kata kunci merupakan gabungan dari karakter teks alfabet (A-Z, a-z), angka (0-9), tanda baca (!?,.=-) atau karakter lainnya yang tidak dapat (atau susah) ditebak oleh para intruder sistem atau jaringan. Meskipun begitu, banyak pengguna yang menggunakan kata sandi yang berupa kata-kata yang mudah diingat, seperti halnya yang terdapat dalam kamus, ensiklopedia (seperti nama tokoh, dan lainnya), atau yang mudah ditebak oleh intruder sistem.</p>
+
+      <h2 id="memilih">Memilih kata sandi yang aman dan mudah diingat</h2>
+
+      <p>Kata sandi yang paling aman digunakan adalah karakter acak, namun kata sandi seperti ini sangat sulit untuk diingat dan pada akhirnya hanya akan menimbulkan kesulitan. Ada beberapa metode yang dapat anda gunakan agar password acak mudah diingat, salah satunya:</p>
+
+      <h3>Metode Kata Sandi Bruce Schneier</h3>
+
+      <p>Ahli keamanan Bruce Schneier mengemukakan sebuah teori tentang pembuatan kata sandi dengan cara mengambil susunan suku kata pada suatu kalimat untuk digunakan sebagai kata sandi, metode ini masih direkomendasikan sampai saat ini, karena telah terbukti menghasilkan kombinasi kata sandi yang aman dan mudah diingat, Contoh: HePe1SaBeDoPuAn2: <b>He</b>wan <b>Pe</b>liharaan <b>pertama</b> <b>Sa</b>ya <b>Be</b>rnama <b>Do</b>gi <b>Pu</b>nya <b>An</b>ak <b>dua</b></p>
+
+      <p>Cukup membuat sebuah kalimat yang mudah diingat, kemudian mengambil bagian suku kata dalam kalimat itu, Metode ini telah diuji menggunakan beberapa software pemecah kata sandi dan terbukti dapat menghasilkan kata sandi yang aman.</p>
+
+      <h3>Raulfa raja</h3>
+
+      <p>Teknik menghafal dan strategi mnemonic dapat membantu untuk membuat kata sandi yang aman dan mudah diingat, Setidaknya, itulah teori yang diajukan oleh Carnegie Mellon University, ilmuwan komputer yang menyarankan menggunakan metode <i>Person-Action-Object</i> (PAO) untuk membuat password yang sulit dipecahkan.</p>
+      
+      <p>Metode PAO merupakan metode kognitif, otak mudah mengingat sesuatu dengan lebih baik dengan visual bersamaan dengan sebuah skenario yang aneh. Setelah membuat dan menghafal beberapa cerita PAO, cerita tersebut dapat digunakan untuk menghasilkan sebuah kata sandi yang aman, contoh teori PAO:</p>
+
+      <p>Memilih suatu gambar yang menarik (Gunung Semeru). Pilih foto seseorang yang terkenal (Sule). Bayangkan beberapa perbuatan sule bersamaan dengan foto gunung semeru hasil penggunaan teori PAO: <span style="overflow-wrap: break-word;">rambutsulekuningterbakarkawahsemeru</span></p>
+
+      <h3>Metode Campuran</h3>
+
+      <p>Metode kata sandi campuran adalah metode yang digunakan untuk membuat kata sandi dengan menggabungkan dua atau lebih metode pembuatan kata sandi. Seperti mencampur metode kata sandi PAO dan Metode Kata Sandi Bruce Schneier.</p>
+
+      <section>
+        <h2 id="generator">Password Generator</h2>
+
+        <p>Kalau kamu ingin membuat kata sandi yang kuat tapi tidak ingin susah mengingatnya, kamu bisa menggunakan layanan <b>password manager</b> yang disediakan oleh Google maupun lainnya. Dengan menggunakan aplikasi <i>password generator</i> ini, kamu bisa langsung copy dan paste tanpa perlu bersusah payah membuat rangkaian karakter yang sulit ditebak dengan panjang 20 karakter. Dijamin males ngapalinnya!</p>
+
+        <div class="password-generator">
+          <p><button id="gen-pass" class="submit-btn" onclick="showPassword();">Generate Password</button></p>
+          <div class="generated" id="generated">password</div>
+        </div>
+      </section>
+
+      <p>Wkwkwk. Ehm. Mohon maaf, saya harus ketawa. Hasil generate password-nya bener-bener bikin males banget ngapalinnya.</p>
+        
+      <p>Mohon copy manual ya, saya tidak menyediakan tombol copy-nya. <i>Saya gak yakin kamu mau nge-copy.</i></p>
+
+      <p>Ok. That's it. Mudah-mudahan kamu <i>enjoy</i> ngebacanya.</p>
+
+      <footer>
+        <p><sup id="footer1-ref"><a href="#footer1">1</a></sup> Konten pada artikel ini diambil dari <a href="https://id.wikipedia.org/wiki/Kata_sandi" target="_blank" rel="noopener noreferrer">Wikipedia</a> kecuali bagian Password Generator.</p>
+      </footer>
+
+    </article><!-- .blog-post -->
+
+    <section class="post-author">
+      <div class="author-photo">
+        <img src="assets/images/post-author.jpg" alt="Foto Post Author">
+      </div>
+      <div class="author-content">
+        <h1>Post Author</h1>
+        <h2>Randy Perdana</h2>
+        <p>Penyuka course gratisan berkualitas. Peserta academy <a href="https://www.dicoding.com/academies/123" target="_blank" rel="noopener noreferrer"></a>Belajar Dasar Pemrograman Web</a>.</p>
+      </div>
+    </section>
+      
+    <section class="comment-input">
+      <h1 id="comment">Silakan tinggalkan komentar (bakal kesimpen di browser, serius!)</h1>
+      <div>
+        <label for="your-name">Nama</label><br>
+        <input id="your-name" type="text" name="username">
+      </div>
+      <div>
+        <label for="your-comment">Komentar</label><br>
+        <textarea name="comment" id="your-comment"></textarea>
+      </div>
+      <p><button id="submit-comment" class="submit-btn">Submit</button></p>
+      
+      <section class="clear-comment">
+        <p>Ingin menghapus semua komentar?</p>
+        <p><button class="submit-btn" onclick="clearComments()">Hapus Semua Komentar</button></p>
+      </section>
+      
+    </section><!-- .comment-input -->
+
+    <section class="blog-comments">
+      <article class="comment">
+        <div class="comment-photo">
+          <img src="https://ui-avatars.com/api/?name=John+Doe" alt="Foto Yang Komentar">
+        </div>
+
+        <div class="comment-content">
+          <p class="comment-author">John Doe</p>
+          <p class="comment-post">Artikel bagus gan. Ditunggu tulisan tulisan berikutnya.</p>
+          <p class="comment-date">20 Juli 2020 07:58:00</p>
+        </div>
+      </article>
+
+      <article class="comment">
+        <div class="comment-photo">
+          <img src="https://ui-avatars.com/api/?name=Copas+Nama" alt="Foto Yang Komentar">
+        </div>
+
+        <div class="comment-content">
+          <p class="comment-author">Copas Nama Tengahku</p>
+          <p class="comment-post">Aplikasinya keren bos. Ijin share!</p>
+          <p class="comment-date">19 Juli 2020 16:20:01</p>
+        </div>
+      </article>
+
+      <article class="comment">
+        <div class="comment-photo">
+          <img src="https://ui-avatars.com/api/?name=Danang" alt="Foto Yang Komentar">
+        </div>
+
+        <div class="comment-content">
+          <p class="comment-author">Danang</p>
+          <p class="comment-post">Saya lebih suka menerapkan <i>passphrase</i> min, soalnya bisa panjang karakternya, gampang diingat, tapi susah ditebak orang. Sayang gak semua website mendukung karakter password yang panjang.</p>
+          <p class="comment-date">19 Juli 2020 10:25:40</p>
+        </div>
+        
+      </article>
+
+      <article class="comment">
+        <div class="comment-photo">
+          <img src="https://ui-avatars.com/api/?name=Kaskuser" alt="Foto Yang Komentar">
+        </div>
+
+        <div class="comment-content">
+          <p class="comment-author">Kaskuser</p>
+          <p class="comment-post">Pertamax! Nais inpoh gan.</p>
+          <p class="comment-date">19 Juli 2020 08:05:23</p>
+        </div>
+        
+      </article>
+    </section><!-- .blog-comments -->
+    
+  </main>
+
+  <aside>
+    <section class="id-card">
+      <div class="id-card-photo">
+        <img src="assets/images/profpic.png" alt="Foto Author Website">
+      </div>
+      <div class="id-card-bio">
+        <h1>Website Owner</h1>
+        <span>Hai. Namaku Amal Maulana Karim. Saya pemilik website ini. Lagi seneng belajar HTML, CSS, Javascript, dan Blender 3D. Tolong dipahami bahwa belajar bukan berarti bisa ya. Nyamar di Youtube dengan nama channel <a href="https://www.youtube.com/channel/UCWjRcGePs4ruGAcsvwmle8w" target="_blank" rel="noopener noreferrer">Super Telo</a>. Subscribe boleh. Kapan bikin video lagi? Err... mudah-mudahan secepatnya.</span>
+      </div>
+    </section>
+
+    <section class="news corona">
+      <h1><a href="">Terus Meningkat</a></h1>
+      <p>Sementara itu kondisi corona di Indonesia masih terus menunjukkan peningkatan yang terbilang tinggi. Hal itu diperparah dengan kurangnya kesadaran masyarakat dalam melakukan hal hal pencegahan. Bahkan yang paling minimal pakai masker pun banyak yang tidak melakukannya.</p>
+    </section>
+
+    <section class="news course">
+      <h1><a href="">Course Gratis</a></h1>
+      <p>Tau nggak, kalau kamu sign up di My Visual Studio, kamu bisa dapet akses full di pluralsight.com dan linkedin learning selama 1 bulan. Gratis dari Microsoft!</p>
+    </section>
+
+    <section class="news belajar">
+      <h1><a href="">Belajar JavaScript</a></h1>
+      <p>Belajar JavaScript itu butuh waktu lama. Sama kayak kamu belajar CSS, sama juga kayak belajar Java atau Kotlin. <i>All in all</i>, belajar apapun itu butuh waktu. Gak bisa sebulan dua bulan langsung joss.</p>
+    </section>
+
+    <section class="links">
+      <h1>Artikel Menarik</h1>
+      <ul>
+        <li>
+          <a href="https://protonmail.com/blog/protonmail-com-blog-password-vs-passphrase/" target="_blank" rel="noopener noreferrer">Password vs Passphrase</a>
+        </li>
+        <li>
+          <a href="https://www.csoonline.com/article/2117843/what-is-phishing-how-this-cyber-attack-works-and-how-to-prevent-it.html" target="_blank" rel="noopener noreferrer">What is phishing? How this cyber attack works and how to prevent it</a>
+        </li>
+        <li>
+          <a href="https://www.cisco.com/c/en/us/products/security/what-is-information-security-infosec.html" target="_blank" rel="noopener noreferrer">What is Information Security?</a>
+        </li>
+        <li>
+          <a href="https://www.reuters.com/article/us-indonesia-cyber-breach/indonesia-probes-breach-of-data-on-more-than-two-million-voters-idUSKBN22Y15K" target="_blank" rel="noopener noreferrer">Indonesia probes breach of data on more than two million voters</a>
+        </li>
+      </ul>
+    </section>
+  </aside>
+</div><!-- .content -->
+
+<footer>
+  <div class="site-footer">
+    <section class="copyright">
+      <span>&copy; 2020 <a href="https://www.dicoding.com/users/977466" target="_blank" rel="noopener noreferrer">Amal Maulana Karim</a>. Teks tersedia di bawah Lisensi <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.id" target="_blank" rel="noopener noreferrer">Atribusi-BerbagiSerupa Creative Common</a>.</span>
+    </section>
+  </div>
+</footer>
+
+<nav class="mobile-nav">
+  <a id="nav-sandi" href="#kata-sandi"><i class="fas fa-key"></i></a>
+  <a id="nav-generator" href="#generator"><i class="fas fa-cogs"></i></a>
+  <a id="nav-comment" href="#comment"><i class="fas fa-comment"></i></a>
+</nav>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
