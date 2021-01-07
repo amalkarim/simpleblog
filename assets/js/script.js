@@ -103,7 +103,7 @@ function showComments() {
 }
 
 function clearComments() {
-  if (isDefined(localStorage.comments)) {
+  if (isDefined(localStorage.COMMENTS)) {
     localStorage.removeItem(COMMENTS);
     location.reload();
   }
